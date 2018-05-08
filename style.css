@@ -1,0 +1,65 @@
+/*
+Theme Name: Davis Makerspace WP Theme
+Theme URI:
+Author: Davis Makerspace Community
+Author URI: davismakerspace.org
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:
+Tags:
+*/
+
+/**
+ * Color Guide *
+ TBD
+*/
+
+/**
+ * Normalize
+ */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+ul { list-style-type: none; }
+
+[hidden],
+template {
+    display: none;
+}

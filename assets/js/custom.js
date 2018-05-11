@@ -1,3 +1,3 @@
 /* davis makerspace custom js */
 
-console.log("dms custom js file";
+console.log("dms custom js file");

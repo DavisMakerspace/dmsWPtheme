@@ -32,7 +32,9 @@
  <?php wp_head(); ?>
  </head>
  <body>
+   
  <!-- Site header and navigation -->
+
      <header class="top" role="header">
          <div class="container">
            <div class="row">
@@ -50,10 +52,12 @@
                    <?php
 
                    wp_nav_menu( array(
-                     'menu'              => 'primary',
-                      'theme_location'    => 'primary',
-                      'container'         => 'div',
-                      'menu_class'        => 'nav navbar-nav',
+                     'menu'           => 'main-menu',
+                     'theme_location' => 'main-menu',
+                     'menu_id'        => 'navigation',
+                     'container'      => false,
+                     'menu_class'     => 'nav',
+                     'walker'         => new wp_bootstrap_navwalker()
                     ));
 
                     ?>

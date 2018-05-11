@@ -2,22 +2,16 @@
 
 /*------ Add Dependancies the WP Way --------- */
 
-function dmsWPtheme() {
+function dmsWPtheme_depend_scripts() {
 
-  // with this Dashicons can now be used on public-facing templates
-  // ...and pages instead of only in the WP admin
-  wp_enqueue_style( 'dashicons' );
-  // this loads jquery (for bootstrap, among other things)
-  wp_enqueue_script('jquery', get_stylesheet_uri(), 'dashicons' );
-  wp_enqueue_script( 'jquery' , get_template_directory_uri() . '/assets/libraries/jquery-3.3.1.min.js', false, '3.3.1' );
-  // load boostrap
-  wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/libraries/bootstrap-4.1.0/bootstrap.min.js', array( 'jquery' ), '4.1.0' );
-  wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/libraries/bootstrap-4.1.0/bootstrap.min.css', '4.1.0' );
-  // load custom js
-  wp_enqueue_script( 'custom', get_template_directory_uri() . '/assets/js/custom.js', array( 'jquery' ), '3.3.1');
-
+    // all styles
+    wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/assets/libraries/bootstrap-4.1.0/dist/css/bootstrap.min.css', array());
+    wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/style.css', array(), 20141119 );
+    // all scripts
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/libraries/bootstrap-4.1.0/dist/js/bootstrap.min.js', array('jquery'), '20120206', true );
+    wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '20120206', true );
 }
-add_action('wp_enqueue_scripts', 'dmsWPtheme', 1);
+add_action('wp_enqueue_scripts', 'dmsWPtheme_depend_scripts', 99);
 
 
 if ( ! function_exists ( 'dmsWPtheme_setup') ) :
@@ -28,6 +22,9 @@ if ( ! function_exists ( 'dmsWPtheme_setup') ) :
     }
 endif;
 add_action('after_setup_theme', 'dmsWPtheme_setup');
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 
 /*------ Register Menus --------- */
 
@@ -42,3 +39,6 @@ function register_dmsWPtheme() {
 
 }
 add_action('init', 'register_dmsWPtheme');
+
+/* -------- Enabling Support for Post Thumbnails ----------*/
+add_theme_support( 'post-thumbnails' );

@@ -63,3 +63,11 @@ ul { list-style-type: none; }
 template {
     display: none;
 }
+
+/* Custom Styles */
+
+/* header */
+img.custom-logo {
+    max-width: 100px;
+    max-height: 100px;
+}

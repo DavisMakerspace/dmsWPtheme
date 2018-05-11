@@ -13,32 +13,44 @@ function dmsWPtheme_depend_scripts() {
 }
 add_action('wp_enqueue_scripts', 'dmsWPtheme_depend_scripts', 99);
 
+/* --------  Register Custom Navigation Walker -------- */
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 
+
+/* -------- Add Title tag -------- */
 if ( ! function_exists ( 'dmsWPtheme_setup') ) :
-
     function dmsWPtheme_setup() {
-        // WP way of supporting title tag
         add_theme_support( 'title-tag' );
     }
 endif;
 add_action('after_setup_theme', 'dmsWPtheme_setup');
 
-// Register Custom Navigation Walker
-require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
-
 /*------ Register Menus --------- */
-
 function register_dmsWPtheme() {
     register_nav_menus(
         array(
             'primary' => __('Primary Menu'),
             'footer' => __('Footer Menu')
         )
-
     );
-
 }
 add_action('init', 'register_dmsWPtheme');
 
 /* -------- Enabling Support for Post Thumbnails ----------*/
 add_theme_support( 'post-thumbnails' );
+
+
+/* -------- Add custom logo support to 'Appearance' ----------*/
+add_theme_support( 'custom-logo' );
+
+function dmsWPtheme_custom_logo_setup() {
+    $defaults = array(
+        'height'      => 100,
+        'width'       => 400,
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => array( 'site-title', 'site-description' ),
+    );
+    add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'dmsWPtheme_custom_logo_setup' );

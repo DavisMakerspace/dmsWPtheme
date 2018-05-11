@@ -20,10 +20,25 @@ function dmsWPtheme() {
 add_action('wp_enqueue_scripts', 'dmsWPtheme', 1);
 
 
-if ( ! function_exists ( 'dmsWPtheme') ) :
+if ( ! function_exists ( 'dmsWPtheme_setup') ) :
 
-    function dmsWPtheme() {
+    function dmsWPtheme_setup() {
         // WP way of supporting title tag
         add_theme_support( 'title-tag' );
     }
 endif;
+add_action('after_setup_theme', 'dmsWPtheme_setup');
+
+/*------ Register Menus --------- */
+
+function register_dmsWPtheme() {
+    register_nav_menus(
+        array(
+            'primary' => __('Primary Menu'),
+            'footer' => __('Footer Menu')
+        )
+
+    );
+
+}
+add_action('init', 'register_dmsWPtheme');

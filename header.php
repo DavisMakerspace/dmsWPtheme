@@ -36,36 +36,27 @@
  <!-- Site header and navigation -->
 
      <header class="top" role="header">
-         <div class="container">
-           <div class="row">
-             <div class="col-xs-3">
-                 <?php get_template_part( 'logo'); ?>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="#"><?php get_template_part( 'logo'); ?></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-             </div>
-             <div class="col-xs-9">
-              <div class="dropdown">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                   <span class="glyphicon glyphicon-align-justify"></span>
-               </button>
-               <div class="navbar-collapse collapse" role="navigation">
+             <?php
 
-                   <?php
+             wp_nav_menu( array(
+               'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'container'         => false,
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'            => new WP_Bootstrap_Navwalker()
+              ));
 
-                   wp_nav_menu( array(
-                     'menu'              => 'primary',
-                      'theme_location'    => 'primary',
-                      'depth'             => 2,
-                      'container'         => false,
-                      'menu_class'        => 'nav navbar-nav',
-                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                      'walker'            => new WP_Bootstrap_Navwalker()
-                    ));
+              ?>
 
-                    ?>
-
-               </div>
-              </div>
-              </div>
-            </div> <!-- end row -->
-         </div>
+           </div>
+         </nav>
      </header>

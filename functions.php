@@ -26,6 +26,7 @@ endif;
 add_action('after_setup_theme', 'dmsWPtheme_setup');
 
 /*------ Register Menus --------- */
+
 function register_dmsWPtheme() {
     register_nav_menus(
         array(

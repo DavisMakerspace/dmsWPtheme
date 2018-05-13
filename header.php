@@ -32,7 +32,7 @@
  <?php wp_head(); ?>
  </head>
  <body>
-   
+
  <!-- Site header and navigation -->
 
      <header class="top" role="header">
@@ -52,12 +52,13 @@
                    <?php
 
                    wp_nav_menu( array(
-                     'menu'           => 'main-menu',
-                     'theme_location' => 'main-menu',
-                     'menu_id'        => 'navigation',
-                     'container'      => false,
-                     'menu_class'     => 'nav',
-                     'walker'         => new wp_bootstrap_navwalker()
+                     'menu'              => 'primary',
+                      'theme_location'    => 'primary',
+                      'depth'             => 2,
+                      'container'         => false,
+                      'menu_class'        => 'nav navbar-nav',
+                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                      'walker'            => new WP_Bootstrap_Navwalker()
                     ));
 
                     ?>

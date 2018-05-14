@@ -71,3 +71,8 @@ img.custom-logo {
     max-width: 60px;
     max-height: 60px;
 }
+
+/* page template for most pages */
+main.main-content {
+    padding: 3rem 0 6rem;
+}

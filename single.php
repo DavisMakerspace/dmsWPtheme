@@ -6,12 +6,12 @@
 
 get_header(); ?>
 
-<div class="bs-docs-featurette main-content-width-wrapper">
- <div class="container" style="margin-top:40px;">
+
+ <div class="container">
    <div class="row">
-     <div class="col-sm-9 main-content">
+     <div class="col-sm-9">
          <div class="jumbotron">
-          <h1 class="bs-docs-featurette-title"><?php echo get_the_title(); ?></h1>
+          <h1><?php echo get_the_title(); ?></h1>
           <small class="text-muted"><span class="dashicons dashicons-clock"></span>&nbsp;<?php echo get_the_date( 'Y-m-d' ); ?></small>
           <hr>
          <?php
@@ -46,7 +46,7 @@ get_header(); ?>
      </div>
    </div>
 </div>
-</div>
+
 
 
 

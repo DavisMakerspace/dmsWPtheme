@@ -4,6 +4,8 @@
 #### For those not familiar with building WP themes, here is a basic tutorial:
 https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
+## This theme contains (Bootstrap 4)[https://getbootstrap.com/docs/4.0/getting-started/introduction/]. 
+
 #### Once set up with a local install of WP, you can clone the dmsWPtheme theme in your theme directory:
 > wp-content/themes/dmsWPtheme
 
@@ -13,7 +15,7 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 * Go to the WordPress dashboard, and click on Appearance > Themes. You’ll see the dmsWPtheme theme listed with all the default themes. Select dmsWPtheme and activate it.
 
-* In the WordPress dashboard create an about page, a contact page, and a home page.
+* In the WordPress dashboard create an 'About' page, a 'Contact' page, and a 'Home' page.
 
 * Go to Appearance > Customize > Homepage Settings, and under 'Your homepage displays':
   * select 'A static page'

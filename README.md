@@ -4,7 +4,7 @@
 #### For those not familiar with building WP themes, here is a basic tutorial:
 https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
-## This theme contains (Bootstrap 4)[https://getbootstrap.com/docs/4.0/getting-started/introduction/]. 
+## This theme contains <a href="https://getbootstrap.com/docs/4.0/getting-started/contents/">Bootstrap 4</a>
 
 #### Once set up with a local install of WP, you can clone the dmsWPtheme theme in your theme directory:
 > wp-content/themes/dmsWPtheme

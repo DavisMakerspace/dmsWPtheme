@@ -22,3 +22,11 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 * Navigate to the page menu, so that you edit the 'Home' page.
   * From the right-hand dropdown, select the "Front" template.
   * Publish the changes
+
+* Go to Appearance > Menus
+  * Click 'create a new menu', naming it 'top'
+  * Under 'Menu Settings' at the bottom of the page, select 'Primary'
+  * Select the pages you'd like to appear in the menu (all probably) and click 'Add to menu'.
+
+
+#### When you navigate back to the home page, you should see the code written in the 'page-front.php' file.  

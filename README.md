@@ -17,7 +17,8 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 * Go to Appearance > Customize > Homepage Settings, and under 'Your homepage displays':
   * select 'A static page'
-  * Under 'Homepage' sect 'Home'
+  * Under 'Homepage' select 'Home'
 
-* Navigate to the page menu, so that you edit 'Home'.
+* Navigate to the page menu, so that you edit the 'Home' page.
   * From the right-hand dropdown, select the "Front" template.
+  * Publish the changes

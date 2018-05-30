@@ -6,7 +6,7 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 ## This theme contains <a href="https://getbootstrap.com/docs/4.0/getting-started/contents/">Bootstrap 4</a>
 
-#### Once set up with a local install of WP, you can clone the dmsWPtheme theme in your theme directory:
+#### Once set up with a local install of WP, you can clone the dmsWPtheme theme in your theme directory like this:
 > wp-content/themes/dmsWPtheme
 
 #### You can email me and ask me for the database.
@@ -31,4 +31,4 @@ https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
   * Select the pages you'd like to appear in the menu (all probably) and click 'Add to menu'.
 
 
-#### When you navigate back to the home page, you should see the code written in the 'page-front.php' file.  
+#### When you navigate back to the home page, you should see content from the 'page-front.php' template file.  

@@ -29,7 +29,8 @@
                       <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
                   </div>
           </div>
-            <?php the_post_thumbnail('thumbnail', array('class' => 'card-img-right')); ?>
+            
+            <?php the_post_thumbnail('thumbnail', array('class' => 'img-thumbnail')); ?>
             <!--<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="" data-holder-rendered="true">-->
             <?php endforeach; ?>
           </div>

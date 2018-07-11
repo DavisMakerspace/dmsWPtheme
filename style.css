@@ -76,3 +76,10 @@ img.custom-logo {
 main.main-content {
     padding: 3rem 0 6rem;
 }
+
+/* event list on front page */
+li.ecs-event {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 1.5rem;
+}

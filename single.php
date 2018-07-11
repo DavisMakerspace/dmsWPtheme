@@ -9,7 +9,7 @@ get_header(); ?>
 
  <div class="container">
    <div class="row">
-     <div class="col-sm-9">
+     <article class="col-sm-9">
          <div class="jumbotron">
           <h1><?php echo get_the_title(); ?></h1>
           <small class="text-muted"><span class="dashicons dashicons-clock"></span>&nbsp;<?php echo get_the_date( 'Y-m-d' ); ?></small>
@@ -38,7 +38,7 @@ get_header(); ?>
             the_post_navigation($args); ?>
          </small>
        </div>
-     </div>
+     </article>
      <div class="col-sm-3">
 
          <?php get_sidebar("main-sidebar"); ?>

@@ -14,27 +14,28 @@
 <!-- Middle content section -->
 <section class="row mb-2">
         <div class="col-md-6">
+          <?php
+          $postslist = get_posts('orderby=menu_order&sort_order=asc');
+          foreach ($postslist as $post) :
+              setup_postdata($post);
+              ?>
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <?php
-            $postslist = get_posts('orderby=menu_order&sort_order=asc');
-            foreach ($postslist as $post) :
-                setup_postdata($post);
-                ?>
+
             <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-primary">Post</strong>
-              <h3 class="mb-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              <h3 class="mb-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php echo mb_strimwidth( get_the_title(), 0, 30, '...' );  ?></a></h3>
 
                   <div class="entry">
                       <div class="mb-1 text-muted"><?php the_time('F jS, Y'); ?></div>
                       <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
                   </div>
-          </div>
-            
-            <?php the_post_thumbnail('thumbnail', array('class' => 'img-thumbnail')); ?>
-            <!--<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="" data-holder-rendered="true">-->
-            <?php endforeach; ?>
-          </div>
+            </div>
 
+            <?php the_post_thumbnail( 'dms-custom-img', array( 'class' => 'card-img-right')); ?>
+            <!--<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="" data-holder-rendered="true">-->
+
+          </div>
+          <?php endforeach; ?>
         </div>
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 box-shadow h-md-250">

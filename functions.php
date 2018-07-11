@@ -40,6 +40,9 @@ add_action('init', 'register_dmsWPtheme');
 /* -------- Enabling Support for Post Thumbnails ----------*/
 add_theme_support( 'post-thumbnails' );
 
+/* -------- Custom image size for blog post thumbnails on the front page ------------- */
+
+add_image_size('dms-custom-img', 200, 250, array( 'left', 'top' ) );
 
 /* -------- Add custom logo support to 'Appearance' ----------*/
 add_theme_support( 'custom-logo' );
@@ -56,14 +59,10 @@ function dmsWPtheme_custom_logo_setup() {
 }
 add_action( 'after_setup_theme', 'dmsWPtheme_custom_logo_setup' );
 
-/* --------- Shorten exerpt length ---------------------------*/
-/**
- * Filter the except length to 20 words.
- *
- * @param int $length Excerpt length.
- * @return int (Maybe) modified excerpt length.
- */
+/* --------- Filter the except length to 12 words -----------*/
 function wpdocs_custom_excerpt_length( $length ) {
-    return 20;
+    return 12;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+/* ---------  -------------- */

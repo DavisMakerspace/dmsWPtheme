@@ -1,7 +1,7 @@
 
 # dmsWPtheme
 Davis Makerspace's Custom Wordpress Theme<br>
-This theme contains <a href="https://getbootstrap.com/docs/4.0/getting-started/contents/">Bootstrap 4</a>
+This theme contains Bootstrap 4.1.2
 
 ## Prerequisites:
 1. Set up the [WPDevEnvironment](https://github.com/DavisMakerspace/WPDevEnvironment)

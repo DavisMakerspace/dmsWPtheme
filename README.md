@@ -1,7 +1,8 @@
 
-# dmsWPtheme, Davis Makerspace's Custom Wordpress Theme
+# dmsWPtheme 
+## Davis Makerspace's Custom Wordpress Theme
 
-#### For those not familiar with building WP themes, here is a basic tutorial:
+For those not familiar with building WP themes, here is a basic tutorial:
 https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/
 
 ## This theme contains <a href="https://getbootstrap.com/docs/4.0/getting-started/contents/">Bootstrap 4</a>

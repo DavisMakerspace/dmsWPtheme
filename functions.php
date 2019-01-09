@@ -42,7 +42,7 @@ add_theme_support( 'post-thumbnails' );
 
 /* -------- Custom image size for blog post thumbnails on the front page ------------- */
 
-add_image_size('dms-custom-img', 200, 250, array( 'left', 'top' ) );
+add_image_size('dms-custom-img', 200, 200, true );
 
 /* -------- Add custom logo support to 'Appearance' ----------*/
 add_theme_support( 'custom-logo' );

@@ -99,3 +99,6 @@ span.duration.time {
     float: left;
     width: 50%;
 }
+ul.ecs-event-list {
+    margin-left: -40px !important;
+}

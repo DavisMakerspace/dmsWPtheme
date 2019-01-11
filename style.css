@@ -70,9 +70,9 @@ template {
 h4 { text-transform: uppercase; }
 .jumbotron { background: transparent; }
 .dms-yellow { background-color: #cd9a57; }
-.dms-blue { background-color: #60839e; }
-.dms-terracotta { background-color: #cd7957;}
-.btn { background-color: #0b5736; color: #ccc; }
+.dms-blue { background-color: #b4b383; }
+.dms-terracotta { background-color: #fafafa;}
+.btn { background-color: #df5e00; color: #ccc; }
 
 /* header */
 img.custom-logo {
@@ -104,6 +104,20 @@ section.banner {
 }
 h4.dms-fp {
     margin: 2rem .1rem;
+}
+.dms-section-title {
+    height: 5rem;
+    width: 100%;
+    margin: 0rem;
+    padding: 1.5rem;
+    background-color: #37481d;
+    color: #cfcf51;
+}
+.dms-section-title h4 {
+    text-align: center;
+}
+.dms-section-text {
+    margin: 2.5rem;
 }
 
 /* event list on front page */

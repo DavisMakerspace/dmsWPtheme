@@ -48,13 +48,47 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/analysis-blackboard.jpg" alt="visit our wiki image at Davis Makerspace" height="400" width="400">
     </div>
     <div class="col-md-8 jumbotron">
-      <h4>Learn more:</h4>
-      <h2>Visit the Davis Makerspace Wiki</h2>
-      <p>What is a wiki? A wiki is a type of collabortively written website. Ours is our community page containing practical details about our space, the people who run the space, and some of the gadgets we've created and maintained over the years.</p>
+      <h4>The Wiki</h4>
+      <p>What is a wiki? A wiki is a type of collabortively written website. Our wiki is our community page containing practical details about our space, the people who run the space, and some of the gadgets we've created and maintained over the years.</p>
       <p>Looking for open hours? Instructions on how to use one of our 3D printers?</p>
-      <button class="btn btn-info">Visit Davis Makerspace's Wiki</button>
+      <button class="btn btn-info">VISIT DAVIS MAKERSPACE'S WIKI</button>
     </div>
   </div>
+
+  <div class="row mb-2">
+    <div class="col-md-8 jumbotron text-right">
+      <h4>Kids</h4>
+      <p>Kids are welcome at Davis Makerspace! For safety reasons, however, children under the age of 18 need to be accompanied by an adult.</p>
+      <p>For special events, arrangements can be made. Davis Makerspace is available for many events and workshops. If you have questions or would like to put on an event, write to us!</p>
+      <button class="btn btn-info">WRITE TO THE BOARD</button>
+    </div>
+    <div class="col-md-4">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/DMS_fleamarket_6.jpg" alt="visit our wiki image at Davis Makerspace" height="400" width="400">
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-4">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/davismakerspace-membership.jpg" alt="visit our wiki image at Davis Makerspace" height="400" width="400">
+    </div>
+    <div class="col-md-8 jumbotron">
+      <h4>Membership</h4>
+      <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to stop by and use whenever possible. As a member you can put on events, partake in our governance process, and possibly host open hours. Our suggested monthly donation for members is $30 a month.</p>
+      <button class="btn btn-info">LEARN MORE</button>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-8 jumbotron text-right">
+      <h4>Tool Lending Library</h4>
+      <p>Need to borrow a hacksaw, a hammer, and VU meter for a short-term project? We are in the process of creating a tool library that will be available for everyone to use. We haven't built our lending system yet, but join our mailing list to get status updates on our lending library, events, and other happenings at Davis Makerspace.</p>
+      <button class="btn btn-info">MAILING LIST</button>
+    </div>
+    <div class="col-md-4">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tool-library.jpg" alt="visit our wiki image at Davis Makerspace" height="400" width="400">
+    </div>
+  </div>
+
 </section>
 
 

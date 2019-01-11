@@ -66,6 +66,9 @@ template {
 
 /* Custom Styles */
 
+/* globals */
+h4 { text-transform: uppercase; }
+
 /* header */
 img.custom-logo {
     max-width: 60px;

@@ -68,11 +68,28 @@ template {
 
 /* globals */
 h4 { text-transform: uppercase; }
+.jumbotron { background: transparent; }
 
 /* header */
 img.custom-logo {
     max-width: 60px;
     max-height: 60px;
+}
+section.banner {
+  min-height: 600px;
+  background: url(/wp-content/themes/dmsWPtheme/assets/images/davis-makerspace.1.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.dms-b-right {
+  height: 700px;
+  background: rgba(0, 0, 0, .5);
+  padding: 6rem 4rem;
+}
+h4.dms-fp {
+    margin: 2rem .1rem;
 }
 
 /* page template for most pages */

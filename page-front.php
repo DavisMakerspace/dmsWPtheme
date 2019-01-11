@@ -19,7 +19,7 @@
 
 <!-- Middle content section -->
 <section class="container-fluid">
-  <div class="row dms-yellow">
+  <div class="row dms-terracotta">
         <div class="col-md-6">
           <h4 class="dms-fp">Events</h4>
           <p class="card-text mb-auto"><?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' ecs-list-events thumb='true' thumbwidth='200' thumbheight='250' contentorder='title, date, excerpt, venue, thumbnail']"); ?></p>
@@ -51,7 +51,7 @@
   </div>
   <div class="row dms-blue">
     <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/makerfaire_weekend_wiki_plants.jpg" alt="visit our wiki image at Davis Makerspace" style="width:100%;height:auto;">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/drawing_on_papers_dms.jpg" alt="visit our wiki image at Davis Makerspace" style="width:100%;height:auto;">
     </div>
     <div class="col-md-8 mr-0 ml-0 pr-0 pl-0">
       <div class="dms-section-title">
@@ -60,7 +60,7 @@
       <div class="dms-section-text">
         <p>What is a wiki? A wiki is a type of collabortively written website. Our wiki is our community page containing practical details about our space, the people who run the space, and some of the gadgets we've created and maintained over the years.</p>
         <p>Looking for open hours? Instructions on how to use one of our 3D printers?</p>
-        <button class="btn">VISIT DAVIS MAKERSPACE'S WIKI</button>
+        <button class="btn mx-auto">VISIT DAVIS MAKERSPACE'S WIKI</button>
       </div>
     </div>
   </div>
@@ -73,7 +73,7 @@
       <div class="dms-section-text">
         <p>Kids are welcome at Davis Makerspace! For safety reasons, however, children need to be accompanied by an adult.</p>
         <p>For special events, arrangements can be made. Davis Makerspace is available for many events and workshops. If you have questions or would like to put on an event, write to us!</p>
-        <button class="btn">WRITE TO THE BOARD</button>
+        <button class="btn mx-auto">WRITE TO THE BOARD</button>
       </div>
     </div>
     <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
@@ -90,8 +90,9 @@
         <h4>Membership</h4>
       </div>
       <div class="dms-section-text">
-        <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to use whenever possible. As a member you can put on events, partake in our governance process, and possibly even host open hours. Our suggested monthly donation for members is $30 a month.</p>
-        <button class="btn">LEARN MORE</button>
+        <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to use whenever possible. </p>
+        <p>As a member you can put on events, partake in our governance process, and possibly even host open hours. Our suggested monthly donation for members is $30 a month.</p>
+        <button class="btn mx-auto">LEARN MORE</button>
       </div>
     </div>
   </div>
@@ -102,8 +103,9 @@
         <h4>Tool Lending Library</h4>
       </div>
       <div class="dms-section-text">
-        <p>Need to borrow a hacksaw, a hammer, and VU meter for a short-term project at home? We are in the process of creating a tool library that will be available for everyone to use. We haven't built our lending system yet, but join our mailing list to get status updates on our lending library, events, and other happenings at Davis Makerspace.</p>
-        <a href="https://lists.davismakerspace.org/listinfo/discuss?fbclid=IwAR3YB1LKumTPWi7_EA_qCGxjE14NwxvUZUoxc7pbKUokQzfsnkVc3w1ne_4"><button class="btn">MAILING LIST</button></a>
+        <p>Need to borrow a hacksaw, a hammer, and VU meter for a short-term project at home? We are in the process of creating a tool library that will be available for everyone to use.</p>
+        <p>We haven't built our lending system yet, but join our mailing list to get status updates on our lending library, events, and other happenings at Davis Makerspace.</p>
+        <a href="https://lists.davismakerspace.org/listinfo/discuss?fbclid=IwAR3YB1LKumTPWi7_EA_qCGxjE14NwxvUZUoxc7pbKUokQzfsnkVc3w1ne_4"><button class="btn mx-auto">MAILING LIST</button></a>
       </div>
     </div>
     <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">

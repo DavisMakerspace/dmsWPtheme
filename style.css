@@ -74,8 +74,9 @@ p { font-size: 16px; }
 .dms-yellow { background-color: #cd9a57; }
 .dms-blue { background-color: #b4b383; }
 .dms-offwhite { background-color: #fafafa; }
-.dms-terracotta { background-color: #f5c98f;}
-.btn { background-color: #7f2f0f; color: #d2b8a7; display: block; }
+.dms-terracotta { background-color: #ad5326;}
+.btn { background-color: #7f2f0f; color: #d2b8a7;display: block;font-size:1.3rem;margin-top:3rem;padding:0.6rem 1.5rem; }
+.display-4 { font-size: 2.5rem;margin: 1rem;color: #cfcf51;text-transform: uppercase;font-weight: 500; }
 
 /* header */
 img.custom-logo {
@@ -124,11 +125,7 @@ h4.dms-fp {
     display: block;
     text-align: center;
 }
-.dms-section-text .btn {
-  font-size: 1.3rem;
-  margin-top: 3rem;
-  padding: .6rem 1rem;
-}
+
 
 /* event list on front page */
 li.ecs-event {

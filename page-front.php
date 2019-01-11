@@ -9,9 +9,10 @@
 
     </div>
     <div class="col-md-6 dms-b-right">
-
-      <h1 class="display-4 font-italic">Welcome to Davis Makerspace</h1>
-      <p class="lead my-3">a non-profit community workspace for makers and builders, designers and inventors.</p>
+      <div style="float:left;"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/dms-logo.png" alt="Kids at Davis Makerspace" style="width:100px;height:auto;margin-right:30px;"></div>
+      <h1 class="display-4 text-center">Davis Makerspace</h1>
+      <p style="height: 100px;" class="lead my-3 float-left text-center">a non-profit community workspace for makers and builders, designers and inventors.</p>
+      <button class="btn mx-auto">DONATE</button>
 
     </div>
   </div>
@@ -19,7 +20,7 @@
 
 <!-- Middle content section -->
 <section class="container-fluid">
-  <div class="row dms-terracotta">
+  <div class="row dms-yellow">
         <div class="col-md-6">
           <h4 class="dms-fp">Events</h4>
           <p class="card-text mb-auto"><?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' ecs-list-events thumb='true' thumbwidth='200' thumbheight='250' contentorder='title, date, excerpt, venue, thumbnail']"); ?></p>

@@ -69,14 +69,28 @@ template {
 /* globals */
 h4 { text-transform: uppercase; }
 .jumbotron { background: transparent; }
+.dms-yellow { background-color: #cd9a57; }
+.dms-blue { background-color: #60839e; }
+.dms-terracotta { background-color: #cd7957;}
+.btn { background-color: #0b5736; color: #ccc; }
 
 /* header */
 img.custom-logo {
     max-width: 60px;
     max-height: 60px;
 }
+a.nav-link {
+    text-transform: uppercase;
+}
+
+/* page template for most pages */
+main.main-content {
+    padding: 3rem 0 6rem;
+}
+
+/* front page */
 section.banner {
-  min-height: 600px;
+  min-height: 500px;
   background: url(/wp-content/themes/dmsWPtheme/assets/images/davis-makerspace.1.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,17 +98,12 @@ section.banner {
   background-size: cover;
 }
 .dms-b-right {
-  height: 700px;
+  height: 500px;
   background: rgba(0, 0, 0, .5);
   padding: 6rem 4rem;
 }
 h4.dms-fp {
     margin: 2rem .1rem;
-}
-
-/* page template for most pages */
-main.main-content {
-    padding: 3rem 0 6rem;
 }
 
 /* event list on front page */

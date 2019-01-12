@@ -61,7 +61,7 @@
       <div class="dms-section-text">
         <p>What is a wiki? A wiki is a type of collabortively written website. Our wiki is our community page containing practical details about our space, the people who run the space, and some of the gadgets we've created and maintained over the years.</p>
         <p>Looking for open hours? Instructions on how to use one of our 3D printers?</p>
-        <button class="btn mx-auto">VISIT DAVIS MAKERSPACE'S WIKI</button>
+        <a href="https://wiki.davismakerspace.org/"><button class="btn mx-auto">VISIT DAVIS MAKERSPACE'S WIKI</button></a>
       </div>
     </div>
   </div>

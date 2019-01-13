@@ -4,7 +4,7 @@
 
 <footer class="" id="footer">
   <nav class="navbar navbar-light dms-terracotta">
-    <p class="f-blog-name mx-auto">&copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?></p>
+    <p class="f-blog-name mx-auto mt-3 mb-3 text-uppercase"><strong>&copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?></strong></p>
   </nav>
 </footer>
 

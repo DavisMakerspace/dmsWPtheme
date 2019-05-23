@@ -56,11 +56,11 @@
 
         </div>
   </div>
-  <div class="row dms-blue">
-    <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/drawing_on_papers_dms.jpg" alt="visit our wiki image at Davis Makerspace" style="width:100%;height:auto;">
+  <div class="row dms-blue dms">
+    <div class="col-sm-4 ml-0 mr-0 pl-0 pr-0" style="z-index: 1;">
+      <img class="dms-info-row" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/drawing_on_papers_dms.jpg" alt="visit our wiki image at Davis Makerspace">
     </div>
-    <div class="col-md-8 mr-0 ml-0 pr-0 pl-0">
+    <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0">
       <div class="dms-section-title">
         <h4>The Wiki</h4>
       </div>
@@ -72,8 +72,8 @@
     </div>
   </div>
 
-  <div class="row dms-yellow">
-    <div class="col-md-8 mr-0 ml-0 pr-0 pl-0 text-right">
+  <div class="row dms-yellow dms">
+    <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0 text-right">
       <div class="dms-section-title">
         <h4>Kids</h4>
       </div>
@@ -83,16 +83,16 @@
         <button class="btn mx-auto">WRITE TO THE BOARD</button>
       </div>
     </div>
-    <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/DMS_fleamarket_6.jpg" alt="Kids at Davis Makerspace" style="width:100%;height:auto;">
+    <div class="col-sm-4 ml-0 mr-0 pl-0 pr-0">
+      <img class="dms-info-row" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/DMS_fleamarket_6.jpg" alt="Kids at Davis Makerspace">
     </div>
   </div>
 
-  <div class="row dms-blue">
-    <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/davismakerspace-membership.jpg" alt="Membership at Davis Makerspace" style="width:100%;height:auto;">
+  <div class="row dms-blue dms">
+    <div class="col-sm-4 ml-0 mr-0 pl-0 pr-0" style="z-index: 1;">
+      <img class="dms-info-row" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/davismakerspace-membership.jpg" alt="Membership at Davis Makerspace">
     </div>
-    <div class="col-md-8 mr-0 ml-0 pr-0 pl-0">
+    <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0">
       <div class="dms-section-title">
         <h4>Membership</h4>
       </div>
@@ -104,8 +104,8 @@
     </div>
   </div>
 
-  <div class="row dms-yellow">
-    <div class="col-md-8 mr-0 ml-0 pr-0 pl-0 text-right">
+  <div class="row dms-yellow dms">
+    <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0 text-right">
       <div class="dms-section-title">
         <h4>Tool Lending Library</h4>
       </div>
@@ -115,8 +115,8 @@
         <a href="https://lists.davismakerspace.org/listinfo/discuss?fbclid=IwAR3YB1LKumTPWi7_EA_qCGxjE14NwxvUZUoxc7pbKUokQzfsnkVc3w1ne_4"><button class="btn mx-auto">MAILING LIST</button></a>
       </div>
     </div>
-    <div class="col-md-4 ml-0 mr-0 pl-0 pr-0">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tool-library.jpg" alt="tool library Davis Makerspace" style="width:100%;height:auto;">
+    <div class="col-sm-4 ml-0 mr-0 pl-0 pr-0">
+      <img class="dms-info-row" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tool-library.jpg" alt="tool library Davis Makerspace">
     </div>
   </div>
 

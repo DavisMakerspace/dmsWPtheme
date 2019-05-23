@@ -197,6 +197,15 @@ li.ecs-event img {
     height: 200;
     object-fit: cover;
 }
+/* front page below events and news */
+.dms {
+    min-height: 25rem;
+    overflow: hidden;
+}
+.dms-info-row {
+  width:110%;
+  height:auto;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 10px) {
@@ -214,6 +223,9 @@ li.ecs-event img {
   }
   .card img.card-img-right.wp-post-image {
       float: right;
+  }
+  .dms-info-row {
+
   }
 }
 
@@ -238,7 +250,16 @@ li.ecs-event img {
 
 @media (min-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-
   }
+  section.banner, .dms-b-right { min-height: 700px; }
+  .display-4 {
+    font-size: 2.9rem;
+  }
+  .lead { font-size: 1.5rem; }
+  .dms-section-text { font-size: 1.5rem; }
 
+}
+
+@media (min-width: 1500px) {
+  section.banner, .dms-b-right { min-height: 800px; }
 }

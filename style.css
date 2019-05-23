@@ -91,6 +91,10 @@ a.nav-link {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 .current-menu-item {
     background: #ad5326 !important;
     height: 100%;
@@ -143,7 +147,7 @@ li.ecs-event {
     border-radius: 0rem;
     padding: 0rem;
     margin-bottom: 1.5rem;
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
     height: 12.6rem;
 }
 h4.entry-title.summary {
@@ -151,6 +155,7 @@ h4.entry-title.summary {
     float: left;
     margin: 1.25rem 0rem 0.70rem 1.25rem;
 }
+li.ecs-event h4 a { color: #245d3e; }
 span.duration.time {
     float: left;
     width: 60%;
@@ -177,4 +182,31 @@ li.ecs-event img {
 /* stories on front page */
 .card {
     border-radius: 0rem;
+}
+.card .card-body h3.mb-0 a.text-dark {
+    color: #7f2f10!important;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.45rem;
+}
+.card-body, li.ecs-event {
+    background-color: rgb(238, 237, 231);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }

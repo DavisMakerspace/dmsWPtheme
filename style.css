@@ -90,6 +90,7 @@ a.nav-link {
     color: rgba(0,0,0,.8) !important;
     padding-top: 18px;
     padding-bottom: 18px;
+    font-weight: 500;
 }
 .current-menu-item {
     background: #ad5326 !important;
@@ -143,8 +144,8 @@ li.ecs-event {
     border-radius: 0rem;
     padding: 0rem;
     margin-bottom: 1.5rem;
-    /*background-color: #fafafa;*/
     height: 12.6rem;
+    overflow: hidden;
 }
 h4.entry-title.summary {
     width: 60%;
@@ -178,15 +179,23 @@ li.ecs-event img {
 /* stories on front page */
 .card {
     border-radius: 0rem;
+    height: 12.6rem;
+    overflow: hidden;
 }
+
 .card .card-body h3.mb-0 a.text-dark {
     color: #7f2f10!important;
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 1.45rem;
 }
-.card-body, li.ecs-event {
+.card, li.ecs-event {
     background-color: rgb(238, 237, 231);
+}
+.card img.card-img-right.wp-post-image {
+    width: 200;
+    height: 200;
+    object-fit: cover;
 }
 
 /* MEDIA QUERIES */
@@ -194,11 +203,17 @@ li.ecs-event img {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 3rem;
   }
+  .card img.card-img-right.wp-post-image {
+      float: left;
+  }
 }
 
 @media (min-width: 576px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 3rem;
+  }
+  .card img.card-img-right.wp-post-image {
+      float: right;
   }
 }
 
@@ -207,6 +222,9 @@ li.ecs-event img {
     margin-left: 0rem;
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+  .card img.card-img-right.wp-post-image {
+      float: right;
   }
 
 }

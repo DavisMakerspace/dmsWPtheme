@@ -38,7 +38,7 @@
               ?>
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
             <div class="row no-gutters">
-              <div class="col d-flex order-1 order-sm-0">
+              <div class="col-7 d-flex order-1 order-sm-0">
                 <div class="card-body d-flex flex-column align-items-start">
                   <h3 class="mb-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php echo mb_strimwidth( get_the_title(), 0, 30, '...' );  ?></a></h3>
                   <div class="entry">
@@ -47,7 +47,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-5">
                 <?php the_post_thumbnail( 'dms-custom-img', array( 'class' => 'card-img-right')); ?>
               </div>
             </div>

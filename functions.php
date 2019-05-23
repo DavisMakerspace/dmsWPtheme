@@ -16,7 +16,6 @@ add_action('wp_enqueue_scripts', 'dmsWPtheme_depend_scripts', 99);
 /* --------  Register Custom Navigation Walker -------- */
 require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 
-
 /* -------- Add Title tag -------- */
 if ( ! function_exists ( 'dmsWPtheme_setup') ) :
     function dmsWPtheme_setup() {

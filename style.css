@@ -131,13 +131,15 @@ h4.dms-fp {
 li.ecs-event {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0rem;
-    padding: 1.5rem;
+    padding: 0rem;
     margin-bottom: 1.5rem;
     background-color: #fafafa;
+    height: 12.6rem;
 }
 h4.entry-title.summary {
     width: 60%;
     float: left;
+    margin: 1.25rem 0rem 0.70rem 1.25rem;
 }
 span.duration.time {
     float: left;
@@ -145,13 +147,22 @@ span.duration.time {
     color: #6c757d;
     margin-bottom: .5rem;
     margin-top: -0.3rem;
+    margin-left: 1.25rem;
 }
 .ecs-event .ecs-excerpt {
     float: left;
     width: 50%;
+    margin-left: 1.25rem;
 }
 ul.ecs-event-list {
     margin-left: -40px !important;
+}
+li.ecs-event img {
+    width: 200;
+    height: 200;
+    object-fit: cover;
+    float: right;
+    margin-top: -85px;
 }
 /* stories on front page */
 .card {

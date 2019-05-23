@@ -23,7 +23,7 @@
   <div class="row dms-yellow pb-4">
         <div class="col-md-6">
           <h4 class="dms-fp">Events</h4>
-          <p class="card-text mb-auto"><?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' ecs-list-events thumb='true' thumbwidth='200' thumbheight='250' contentorder='title, date, excerpt, venue, thumbnail']"); ?></p>
+          <p class="card-text mb-auto"><?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' ecs-list-events thumb='true' thumbwidth='250' thumbheight='250' contentorder='title, date, excerpt, venue, thumbnail']"); ?></p>
 
         </div>
 

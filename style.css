@@ -86,6 +86,16 @@ img.custom-logo {
 a.nav-link {
     text-transform: uppercase;
 }
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,.8) !important;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.current-menu-item {
+    background: #ad5326 !important;
+    height: 100%;
+}
+.navbar { padding: 0rem; }
 
 /* page template for most pages */
 main.main-content {

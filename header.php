@@ -35,7 +35,7 @@
 
  <!-- Site header and navigation -->
 
-     <header class="top dms-terracotta" role="header">
+     <header class="top dms-yellow" role="header">
         <nav class="navbar navbar-expand-lg navbar-light">
            <a class="navbar-brand" href="/home"><?php get_template_part( 'logo'); ?></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

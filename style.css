@@ -213,6 +213,7 @@ li.ecs-event img {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 3rem;
   }
+  .banner .row { margin-right: 0px; }
   .card img.card-img-right.wp-post-image {
       float: left;
   }
@@ -222,6 +223,7 @@ li.ecs-event img {
   .navbar-expand-lg .navbar-nav .nav-link {
     margin-left: 3rem;
   }
+  .banner .row { margin-right: 0px; }
   .card img.card-img-right.wp-post-image {
       float: right;
   }
@@ -236,6 +238,7 @@ li.ecs-event img {
     padding-right: 1rem;
     padding-left: 1rem;
   }
+  .banner .row { margin-right: -0px; }
   .card img.card-img-right.wp-post-image {
       float: right;
   }

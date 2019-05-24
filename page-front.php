@@ -99,7 +99,7 @@
       <div class="dms-section-text">
         <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to use whenever possible. </p>
         <p>As a member you can put on events, partake in our governance process, and possibly even host open hours. Our suggested monthly donation for members is $30 a month.</p>
-        <button class="btn mx-auto">LEARN MORE</button>
+        <a href="/about#contact.html"><button class="btn mx-auto">MEMBERSHIP</button></a>
       </div>
     </div>
   </div>

@@ -80,7 +80,7 @@
       <div class="dms-section-text">
         <p>Kids are welcome at Davis Makerspace! For safety reasons, however, children need to be accompanied by an adult.</p>
         <p>For special events, arrangements can be made. Davis Makerspace is available for many events and workshops. If you have questions or would like to put on an event, write to us!</p>
-        <button class="btn mx-auto">WRITE TO THE BOARD</button>
+        <a href="/about#contact"><button class="btn mx-auto">WRITE TO THE BOARD</button></a>
       </div>
     </div>
     <div class="col-sm-4 ml-0 mr-0 pl-0 pr-0">
@@ -99,7 +99,7 @@
       <div class="dms-section-text">
         <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to use whenever possible. </p>
         <p>As a member you can put on events, partake in our governance process, and possibly even host open hours. Our suggested monthly donation for members is $30 a month.</p>
-        <a href="/about#contact.html"><button class="btn mx-auto">MEMBERSHIP</button></a>
+        <a href="/about#contact"><button class="btn mx-auto">MEMBERSHIP</button></a>
       </div>
     </div>
   </div>

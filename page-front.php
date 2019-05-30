@@ -12,7 +12,7 @@
       <div style="float:left;"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/dms-logo.png" alt="Kids at Davis Makerspace" style="width:100px;height:auto;margin-right:30px;"></div>
       <h1 class="display-4 text-center">Davis Makerspace</h1>
       <p style="height: 100px;" class="lead my-3 float-left text-center">a non-profit community workspace for makers and builders, designers and inventors.</p>
-      <button class="btn mx-auto">DONATE</button>
+      <a href="/donate"><button class="btn mx-auto">DONATE</button></a>
 
     </div>
   </div>

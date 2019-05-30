@@ -117,6 +117,7 @@ section.banner {
   height: 500px;
   background: rgba(11, 87, 54, .8);;
   padding: 6rem 4rem;
+  margin-top: -1px;
 }
 h4.dms-fp {
     margin: 2rem .1rem;

@@ -40,7 +40,7 @@
             <div class="row">
               <div class="col-7 d-flex order-1 order-sm-0">
                 <div class="card-body d-flex flex-column align-items-start">
-                  <h3 class="mb-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php echo mb_strimwidth( get_the_title(), 0, 30, '...' );  ?></a></h3>
+                  <h3 class="mb-0 mt-0"><a class="text-dark" href="<?php the_permalink(); ?>"><?php echo mb_strimwidth( get_the_title(), 0, 30, '...' );  ?></a></h3>
                   <div class="entry">
                       <div class="mb-1 text-muted"><?php the_time('F jS, Y'); ?></div>
                       <p class="card-text mb-auto"><?php the_excerpt(); ?></p>
@@ -62,7 +62,7 @@
     </div>
     <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0">
       <div class="dms-section-title">
-        <h4>The Wiki</h4>
+        <h4 class="mb-0 mt-0">The Wiki</h4>
       </div>
       <div class="dms-section-text">
         <p>What is a wiki? A wiki is a type of collabortively written website. Our wiki is our community page containing practical details about our space, the people who run the space, and some of the gadgets we've created and maintained over the years.</p>
@@ -75,7 +75,7 @@
   <div class="row dms-yellow dms">
     <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0 text-right">
       <div class="dms-section-title">
-        <h4>Kids</h4>
+        <h4 class="mb-0 mt-0">Kids</h4>
       </div>
       <div class="dms-section-text">
         <p>Kids are welcome at Davis Makerspace! For safety reasons, however, children need to be accompanied by an adult.</p>
@@ -94,7 +94,7 @@
     </div>
     <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0">
       <div class="dms-section-title">
-        <h4>Membership</h4>
+        <h4 class="mb-0 mt-0">Membership</h4>
       </div>
       <div class="dms-section-text">
         <p>Davis Makerspace is a one-room community space, with rotating volunteers hosting open hours. We are not a co-working space but we try to make our tools and spaces available for the general public to use whenever possible. </p>
@@ -107,7 +107,7 @@
   <div class="row dms-yellow dms">
     <div class="col-sm-8 mr-0 ml-0 pr-0 pl-0 text-right">
       <div class="dms-section-title">
-        <h4>Tool Lending Library</h4>
+        <h4 class="mb-0 mt-0">Tool Lending Library</h4>
       </div>
       <div class="dms-section-text">
         <p>Need to borrow a hacksaw, a hammer, and VU meter for a short-term project at home? We are in the process of creating a tool library that will be available for everyone to use.</p>

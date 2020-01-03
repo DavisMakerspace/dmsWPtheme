@@ -32,7 +32,7 @@
           <!-- Posts -->
           <h4 class="dms-fp">News & Stories</h4>
           <?php
-          $postslist = get_posts('orderby=menu_order&sort_order=asc');
+          $postslist = get_posts('sort_order=asc');
           foreach ($postslist as $post) :
               setup_postdata($post);
               ?>

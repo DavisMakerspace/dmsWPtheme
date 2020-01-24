@@ -68,7 +68,7 @@ template {
 
 /* globals */
 h1, h2, h3, h4, h5, h6 {
-    margin-top: .5rem; 
+    margin-top: .5rem;
     margin-bottom: .5rem;
 }
 a:hover { text-decoration: none; }
@@ -82,6 +82,7 @@ p { font-size: 16px; }
 .btn { background-color: #7f2f0f; color: #d2b8a7;display: block;font-size:1.3rem;margin-top:3rem;padding:0.6rem 1.5rem; }
 .display-4 { font-size: 2.5rem;margin: 1rem;color: #cfcf51;text-transform: uppercase;font-weight: 500; }
 html { position: relative; min-height: 100%; }
+.row { width:103%;}
 
 /* header */
 img.custom-logo {
